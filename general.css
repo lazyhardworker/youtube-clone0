@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(22, 21, 21);
+    margin: 0;
+    color: white;
+    padding-top: 75px;
+    padding-left: 97px;
+    padding-right: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.magni .tool-tips{
+    position: absolute;
+    background-color:  rgb(87, 84, 84);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.magni:hover .tool-tips{
+    opacity: 1;
+}
+
+.voice .tool-tips{
+    position: absolute;
+    background-color:  rgb(87, 84, 84);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.voice:hover .tool-tips{
+    opacity: 1;
+}
+
+.rightbt1 .tool-tips{
+    position: absolute;
+    background-color:  rgb(87, 84, 84);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.rightbt1:hover .tool-tips{
+    opacity: 1;
+}
+
+.rightbt2 .tool-tips{
+    position: absolute;
+    background-color:  rgb(87, 84, 84);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.rightbt2:hover .tool-tips{
+    opacity: 1;
+}
+.rightbtn .tool-tips{
+    position: absolute;
+    background-color:  rgb(87, 84, 84);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -40px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.rightbtn:hover .tool-tips{
+    opacity: 1;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.ythome .tool-tips{
+    position: absolute;
+    background-color:  white;
+    color: black;
+    padding: 4px;
+    border-radius: 0px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+.ythome:hover .tool-tips{
+    opacity: 1;
+}

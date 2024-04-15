@@ -1,0 +1,175 @@
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    background-color: rgb(22, 21, 21);
+    z-index: 100;
+}
+
+.left-section{
+width: 210px;
+display:flex;
+align-items: center;
+
+}
+.middle-section{
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width:600px;
+    flex-direction: row;
+}
+.right-section{
+   
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+    
+}
+.hamenu{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    background: none;
+    border: none;
+    margin-right: 12px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.hamburger-menu{
+height: 13px;
+padding-top: 4px;
+
+}
+
+.hamenu:hover{
+    background-color:rgb(87, 84, 84) ;
+}
+.yt-logo{
+    height:85px;
+    cursor: pointer;
+}
+.search{
+   display: flex;
+   flex: 1;
+    max-width: 500px;
+    height: 36px;
+    background-color:  rgb(22, 21, 21);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    color: white;
+    border: 1px solid rgb(65, 62, 62);
+    padding-left: 14px;
+    font-size: 16px;
+    width: 0;
+    cursor:text;
+    
+}
+.search::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+.mic, .search1{
+    height: 25px;
+    cursor: pointer;
+}
+.voice {
+    background: none;
+    border: none;
+    background-color: rgb(65, 62, 62);
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.magni{
+    background: none;
+    border: none;
+    background-color: rgb(65, 62, 62);
+    margin-right: 10px;
+    width:40px;
+    height: 40px;
+    border-top-right-radius: 50%; 
+    border-bottom-right-radius:50%;
+}
+
+.upload, .ytapp{ 
+    height: 20px;
+}
+.noti{
+   
+    height: 20px;
+}
+.mychan{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+
+.rightbt1, .rightbt2{
+     border-radius: 50%;
+     height: 36px;
+     width: 36px;
+     border:none;
+     background-color:rgb(65, 62, 62) ;
+}
+.rightbtn{
+    position: relative;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    border:none;
+    background-color:rgb(65, 62, 62) ;
+}
+.rightbt:hover{
+background-color: rgb(87, 84, 84);
+cursor: pointer;
+transition: 0.14s;
+}
+
+.rightbtn:hover{
+    background-color: rgb(87, 84, 84);
+    cursor: pointer;
+    transition: 0.14s;
+    }
+.voice:hover{
+    background-color: rgb(87, 84, 84);
+    cursor: pointer;
+    transition: 0.14s;
+}
+.mychan:hover{
+    cursor: pointer;
+}
+.notinumber{
+    background-color: rgb(202, 0, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    height:14px;
+    width: 14px;
+    top: 0;
+    right: 0;
+    padding: 2px;
+}
